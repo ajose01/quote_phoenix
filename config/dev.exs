@@ -35,8 +35,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :quoteme, Quoteme.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "quoteme_dev",
+  username: "ecto",
+  password: "password",
+  database: "quoteme_development",
   hostname: "localhost",
   pool_size: 10

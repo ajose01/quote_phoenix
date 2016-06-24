@@ -18,6 +18,8 @@ defmodule Quoteme.Router do
 
     #get "/", PageController, :index
     get "/", QuoteController, :homepage
+    resources "/quotes", QuoteController
+    
   end
 
   # Other scopes may use custom stacks.
